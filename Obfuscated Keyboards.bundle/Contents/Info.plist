@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.neelfyn.keyboardlayout.obfuscated</string>
+	<key>CFBundleName</key>
+	<string>ObfuscatedKeyboards</string>
+	<key>CFBundleVersion</key>
+	<string>0.1.0</string>
+	<key>KLInfo_Obfuscated – AZERTY</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISIconIsTemplate</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>com.neelfyn.keyboardlayout.obfuscated.obfuscated–azerty</string>
+		<key>TISIntendedLanguage</key>
+		<string>fr</string>
+	</dict>
+	<key>KLInfo_Obfuscated – QWERTY</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISIconIsTemplate</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>com.neelfyn.keyboardlayout.obfuscated.obfuscated–qwerty</string>
+		<key>TISIntendedLanguage</key>
+		<string>en</string>
+	</dict>
+	<key>KLInfo_Obfuscated – QWERTZ</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISIconIsTemplate</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>com.neelfyn.keyboardlayout.obfuscated.obfuscated–qwertz</string>
+		<key>TISIntendedLanguage</key>
+		<string>de</string>
+	</dict>
+	<key>KLInfo_Obfuscated – Russian</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISIconIsTemplate</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>com.neelfyn.keyboardlayout.obfuscated.obfuscated–russian</string>
+		<key>TISIntendedLanguage</key>
+		<string>ru</string>
+	</dict>
+</dict>
+</plist>
