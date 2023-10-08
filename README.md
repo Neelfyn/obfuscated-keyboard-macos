@@ -60,6 +60,19 @@ For example, some possible uses could include:
 
 Please note that Obfuscated Keyboards should not be used for any application where absolute privacy is critical, as it is trivial to defeat the obfuscation through a simple "search and replace" back to the original characters. Instead, Obfuscated Keyboards can be helpful in contexts where data is mass-processed and the user is unlikely to be individually targeted.
 
+### Which keyboard layouts are supported?
+
+* `QWERTY` for English
+* `QWERTZ` for German
+* `AZERTY` for French
+* Russian (experimental — a smaller subset of Cyrillic characters is replaced with Greek and Latin equivalents)
+
+Holding down the `cmd` key (or `cmd` with `shift`) reverts to a standard keyboard index to ensure that shortcuts using replaced letters stay accessible.
+
+**Would you like a different layout to be supported?** Feel free to open an issue requesting it. Pull requests welcome.
+
+**Does a layout produce unexpected results on your keyboard?** Please report the issue. Obfuscated Keyboards has been tested on built-in and external Apple keyboards, which for example treat both left and right `shift` keys as a `left shift` key. Third-party keyboards may have a different behavior.
+
 ### How do I know that it works?
 Open the macOS Character Viewer (in pretty much any app: Edit menu > Emoji & Symbols, then click the icon in the top right) and type any of the above characters into the Search box. Click the matching search result, and read the description displayed below the character.
 
