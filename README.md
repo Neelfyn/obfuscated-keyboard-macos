@@ -1,12 +1,20 @@
 # Obfuscated Keyboard Layouts for macOS
 [Obfuscated Keyboards](https://github.com/Neelfyn/obfuscated-keyboard-macos) is a bundle of keyboard layouts for macOS. These layouts replace a number of characters of the Latin alphabet with similar looking Greek or Cyrillic characters, making any text perfectly readable to a human, yet unintelligible to a machine.
 
+![Obfuscated Keyboards in menu bar Input menu](/Screenshots/Input_Menu.png?raw=true)
+
 ## Installation
 Copy `Obfuscated Keyboards.bundle` to `~/Library/Keyboard\ Layouts/` to install it for yourself (or to `/Library/Keyboard\ Layouts/` to install it for all users), then log out and back into your user account. Go to System Settings > Keyboard > Input Sources > Edit… and click + in the bottom left corner. Search for "Obfuscated", and add the layouts you'd like to use with your keyboard.
+
+![Obfuscated Keyboards in Keyboard System Settings](/Screenshots/System_Settings.png?raw=true)
 
 ## FAQ
 ### How does this work?
 When you press the `A` key on your keyboard, instead of typing an `A`, you will actually type an `Α`. Don't see the difference? That's because they're identical — but only to your naked eye. For a computer, `A` is a Latin capital letter A (Unicode U+0041), while `Α` is the Greek capital letter Alpha (Unicode U+0391).
+
+Here is a screenshot showing that the word "keyboard" cannot be found in a text entered with an obfuscated keyboard layout, despite clearly being visible to the eye:
+
+![Comparison of text typed with a standard keyboard layout and an obfuscated layout](/Screenshots/TextEdit.png?raw=true)
 
 Below is the the full list of characters that are replaced by Obfuscated Keyboards. Any other letters, numbers, or special characters are not replaced, and will use the same characters as your standard keyboard layout.
 
